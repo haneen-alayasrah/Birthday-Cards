@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body  id="MyPage">
+
+    <div class="container">
+        <div >
+            <h1>choose a theme:</h1>
+            <label class="switch">
+                <input type="checkbox" id="b1" onclick="pinkTheme()" value="pink theme" checked>
+                <span class="slider sliderpink round"></span>
+              </label>
+              <label class="switch">
+                <input type="checkbox" id="b2" onclick="darkTheme()" value="dark theme" checked>
+                <span class="slider sliderdark round"></span>
+              </label>    
+              <label class="switch">
+                <input type="checkbox" id="b1" onclick="blueTheme()" value="blue theme" checked>
+                <span class="slider sliderblue round"></span>
+              </label>     
+             </div>
+        <h1 id='header'> Birthdays Today</h1>
+        <div class="cards-container">
+
+        </div>
+        <button type="button" id="buttontheme"  >Clear All</button>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
